@@ -3,7 +3,7 @@ import io.gatling.http.Predef._
 
 import scala.concurrent.duration._
 
-class SimpleTest extends Simulation {
+class SimpleExample extends Simulation {
     
     val httpConf = http.baseUrl("http://www.google.com.br/")
         .header("Accept", "application/json")
