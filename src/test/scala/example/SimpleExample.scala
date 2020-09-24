@@ -14,6 +14,9 @@ class SimpleExample extends Simulation {
         .exec(http("Getting all games")
         .get("search?q=videogames")
          )
+         .exec(http("Getting all consoles")
+        .get("search?q=consoles")
+         )
 
     setUp(
         demoScenario.inject(
