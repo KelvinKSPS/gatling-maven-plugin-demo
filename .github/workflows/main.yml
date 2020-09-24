@@ -19,7 +19,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Test with Maven and Gatling
-      run: mvn gatling:test -Dgatling.simulationClass=computerdatabase.BasicSimulation
+      run: mvn gatling:test -Dgatling.simulationClass=example.SimpleExample
     - name: Publish Report
       uses: actions/upload-artifact@v2
       with:
