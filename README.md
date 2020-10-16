@@ -10,3 +10,5 @@ To test it out, simply execute the following command:
 or simply:
 
     $mvn gatling:test
+
+Have fun! :)
